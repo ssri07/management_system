@@ -38,6 +38,7 @@
                <th>city</th>
                <td><?php echo $data['city'];?></td>
            </tr>   
+            
           </table> 
           <?php
       } 

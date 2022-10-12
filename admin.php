@@ -96,4 +96,4 @@ if(isset($_POST["login"]))
 ?>
 
 
-<!-- Designed by ©Sanskar Srivastava All right reserved 2021. -->
+<!-- Designed by ©Sanskar Srivastava All right reserved 2021 . -->

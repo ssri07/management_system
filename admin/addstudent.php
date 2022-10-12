@@ -1,10 +1,11 @@
 <?php
-
 session_start();
 if(isset($_SESSION['password']))
 {
     echo "";
 }
+
+
 else{
     header("location: ../admin.php");
 }

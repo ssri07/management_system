@@ -1,3 +1,4 @@
+
 <?php
     $rollno=$_POST['rollno'];
     $pwd=$_POST['pwd'];   
@@ -18,9 +19,11 @@
     if($run==true)
     {
         ?>
+
         <script>
             alert('Data Updated SUCCESSFUL');
             window.open("updateform.php?sid=<?php echo $id;?>","_self");
+            
     </script>
     <?php   
     } 

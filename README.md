@@ -1,1 +1,2 @@
-# management_system
+# university-management-system
+![alt text](overview.png)

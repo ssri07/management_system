@@ -25,7 +25,11 @@
            <tr>
                <th>Standard</th>
                <td><?php echo $data['standard'];?></td>
-           </tr> 
+           </tr>   
+           <tr>
+               <th>Branch</th>
+               <td><?php echo $data['branch'];?></td>
+           </tr>
            <tr>
                <th>Contact</th>
                <td><?php echo $data['pcon'];?></td>

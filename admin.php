@@ -1,38 +1,69 @@
 <?php
 session_start();
-if(isset($_SESSION['uid']))
+if(isset($_SESSION['password']))
 {
     header("location:admin/admindash.php");
 }
 ?>
     <head>
         <title>
-           admin login page
+           Admin Login
         </title>
+<meta http-equiv="Cache-control" content="public">
 	<meta name="author" content="Sanskar Srivastava">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="English">
 	<meta name="revisit-after" content="1 days">
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
     </head>
     <body>
-        <a href="index.php" style="float:right">STUDENT LOGIN</a>
-        <form method="post" action="admin.php" style="position:relative;top:20%;left:40%">
-        <table>
-            <tr>
-                <td>ADMIN USERNAME</td>
-                <td><input type="text" name="uname" placeholder="username"></td>
-            </tr>
-            <tr>
-                <td>ADMIN PASSWORD</td>
-                <td><input type="password" name="pass" placeholder="password"></td>
-            </tr>
-            <tr>
-                <td align="center"><input type="submit" value="login" name="login"></td>
-            </tr>
-        </table>
-        </form>
+
+    <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form method="post" action="admin.php" >
+				<span class="login100-form-title p-b-37">
+					Sign In
+				</span>
+
+				<div class="wrap-input100 validate-input m-b-20">
+					<input class="input100" type="text" name="uname" placeholder="username">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25">
+					<input class="input100" type="password" name="pass" placeholder="password">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn" type="submit" value="login" name="login">
+                        Login
+					</button>
+				</div>
+
+			</form>
+
+            <div class="text-center p-t-57 p-b-20">
+					<span class="txt2">
+						Or login as
+					</span>
+				</div>
+                <a href="index.php" class="container-login100-form-btn">
+					<button class="login100-form-btn">
+                        Student
+					</button>
+                   </a>
+			
+		</div>
+	</div>
     </body>
 <?php
 include("dbcon.php");
@@ -63,5 +94,6 @@ if(isset($_POST["login"]))
     }
 }
 ?>
+
 
 <!-- Designed by ©Sanskar Srivastava All right reserved 2021. -->

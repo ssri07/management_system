@@ -8,10 +8,8 @@ else{
     header("location: ../admin.php");
 }
 ?>
-<!-- Designed by ©Sanskar Srivastava All right reserved 2021. -->
 <?php
 include("header.php");
-include("titlehead.php");
 include("../dbcon.php");
 $sid=$_GET['sid'];
 $sql="delete from student where rollno='$sid'";
@@ -25,3 +23,4 @@ if($run==true)
     <?php
 }
 ?>
+<!-- Designed by ©Sanskar Srivastava All right reserved 2021. -->

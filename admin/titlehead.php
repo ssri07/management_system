@@ -3,3 +3,4 @@
     <h4><a href="admindash.php" style="float:left;font-size:25px;">back</a></h4>
   <h1>Welcome to Admin Dashboard</h1>
   </div>
+<!-- Designed by ©Sanskar Srivastava All right reserved 2021. -->

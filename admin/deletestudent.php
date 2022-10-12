@@ -81,7 +81,7 @@ include("header.php");
       </div>
 
 <script>
-document.querySelector('.for-active li:nth-child(4)').classList.add("active");
+document.querySelector('.for-active li:nth-child(5)').classList.add("active");
   </script>
 
 <?php

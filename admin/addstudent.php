@@ -91,7 +91,7 @@ include("header.php");
       </div>
 
 <script>
-document.querySelector('.for-active li:nth-child(2)').classList.add("active");
+document.querySelector('.for-active li:nth-child(3)').classList.add("active");
   </script>
 <?php
 include("footer.php");

@@ -55,7 +55,7 @@ $data=mysqli_fetch_assoc($run);
       </div>
 
 <script>
-document.querySelector('.for-active li:nth-child(3)').classList.add("active");
+document.querySelector('.for-active li:nth-child(4)').classList.add("active");
   </script>
 <?php
 include("footer.php");

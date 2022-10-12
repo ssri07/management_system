@@ -48,6 +48,12 @@ input::-webkit-inner-spin-button {
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="show_details.php">
+              <i class="material-icons">add_circle</i>
+              <p>SHOW ALL STUDENTS</p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="addstudent.php">
               <i class="material-icons">add_circle</i>
               <p>INSERT STUDENTS</p>

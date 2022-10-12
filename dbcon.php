@@ -7,7 +7,7 @@
     $con= mysqli_connect( $server , $username , $password , $dbname);
     if(!$con)
     {
-        echo "Connection Error:".mysql_connect_error();
+        echo "Connection Error:".mysqli_connect_error();
     
     }
 
